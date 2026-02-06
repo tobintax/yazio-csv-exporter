@@ -42,6 +42,15 @@ daily_summary.csv
 
 ---
 
+❗ Limitations
+
+Please note that meals added via YAZIO's AI-based "Smart Tracking" feature might not be included in the exported data. This may happen due to two reasons:
+
+- The Yazio app does not always store these meals server-side, making them inaccessible via the export tool.
+- The Yazio Exporter may not yet support parsing AI-generated meals even if they are technically present in the JSON data.
+
+These are current limitations of either the Yazio infrastructure or the exporter tool – **not of this CSV script.**
+
 ## 🖥 Requirements
 Python 3
 No external Python libraries needed (no pandas, no Excel modules)
